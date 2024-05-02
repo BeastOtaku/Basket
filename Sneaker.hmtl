@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The Drip</title>
+  <link rel="stylesheet" href="sneakers.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <h1>Home <|> A Propos de nous <|> Credits </h1>
+  <center>
+    <h2>BOOST 380</h2>
+  </center>
+  <center>
+    <h3>The Drip Store</h3>
+  </center>
+  
+  <center>
+ <img src="https://imagedelivery.net/2DfovxNet9Syc-4xYpcsGg/74bccbbb-7213-4001-79e6-8e750302b100/product" width="300">
+ <p>Découvrez notre nouvelle collection de Yeezy Boost, God, Look at the drip my boi.</p>
+</center>
+  <script src="assets/js/sneakers.js"></script>
+  <title>Sneakers Store</title>
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="logo" onclick="location.reload()">
+        <h1>Drip Store</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Sneakers</a></li>
+          <li><a href="#" id="accueil">Home</a></li>
+        </ul>
+      </nav>
+      <div class="login-signup">
+        <button>Se Connecter</button>
+        <button>Inscription</button>
+      </div>
+    </header>
+    <!-- Main Content -->
+    <main>
+      <!-- Diaporama -->
+     <div class="sneaker-slider">
+    <img src="https://lebuzzsneaker.wordpress.com/wp-content/uploads/2016/05/puma-creeper-2.png?w=554&h=312&crop=1" alt="Sneaker 1">
+   <img src="https://cdn.etrias.nl/media/cache/slide_wide_xxlg/images/slider/225050/nb9060-hoofdbanner.jpg" alt="Sneaker 2">
+       <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNuZWFrZXJzfGVufDB8fDB8fHww" alt="Sneaker 3">
+        <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHNuZWFrZXJzfGVufDB8fDB8fHww" alt="Sneaker 4">
+        <img src="https://images.unsplash.com/photo-1586525198428-225f6f12cff5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHNuZWFrZXJzfGVufDB8fDB8fHww" alt="Sneaker 5">
+      </div>
+      <!-- Section Sneakers -->
+      <section class="sneaker-container">
+        <div class="sneaker-card">
+          <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/9e970183-c03c-4250-ae91-b238aefd47df/chaussure-air-max-90-pour-bVD4kw.png" alt="Sneaker 1">
+          <div class="sneaker-info">
+            <h2>Nike Air Max 90</h2>
+            <p>C'est comme ça que les gens ont décrit la Air Max 90 en la voyant pour la première fois. Le designer Tinker Hatfield s'est inspiré de la Air Max de 1987 et de la Air Max Light de 1989 pour créer une chaussure devenue aujourd'hui aussi culte que la première. God the drip is so fire."</p>
+            <button class="btn">Voir plus</button>
+          </div>
+        </div>
+        <div class="sneaker-card">
+          <img src="https://images.stockx.com/images/Nike-Air-Max-120-Hyper-Blue.png?fit=fill&bg=FFFFFF&w=480&h=320&fm=webp&auto=compress&dpr=2&trim=color&updated_at=1627414706&q=60" alt="Sneaker 2">
+          <div class="sneaker-info">
+            <h2>Nike Air Max 120</h2>
+            <p>
+              La Nike Air Max 120 a été créée par l'équipe de conception de Nike. La conception et le développement de chaussures comme celle-ci impliquent généralement plusieurs designers, ingénieurs et experts en produits chez Nike, plutôt que d'être attribués à une seule personne. La Nike Air Max 120 a été initialement lancée en 1998 et est devenue populaire pour son design distinctif et son amorti Air Max. The drip is on fire.</p>
+            <button class="btn">Voir plus</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <section id="temoignages">
+  </section>
+  <footer>
+
+    <p>Legal Mentions | Terms of use | Contact | God, my drip is Endless...</p>
+    <div id="map"></div>
+  </footer>
+  
+    <center>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://i.kym-cdn.com/photos/images/newsfeed/002/111/316/c57.gif" target="_blank">
+              <b>Nike Official Store</b>
+            </a>
+          </li>
+          <li>
+        </ul>
+      </nav>
+      </center>
+          </div>
+    </a>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="sneakers.js"></script>
+  </body>
+</html>
